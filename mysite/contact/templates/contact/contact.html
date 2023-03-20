@@ -1,0 +1,45 @@
+<!-- contact/templates/contact/contact.html -->
+
+{% extends 'contact/base.html' %}
+{% load crispy_forms_tags %}
+
+{% block body %}
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light px-3">
+  <a class="navbar-brand" href="{% url 'polls:index' %}">IF TAXI UND KURIERDIENST</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ms-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="{% url 'polls:index' %}">Home </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://wa.me/4917683339707">WhatsApp</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="callto:004954118568702">Anrufen</a>
+      </li>
+
+    </ul>
+  </div>
+</nav>
+
+<div class="mx-auto my-4 text-center">
+    <h1 class="text-uppercase">Anfrage</h1>
+</div>
+<div class="container">
+    <div class="form-horizontal">
+    <form class="form-group" action="" method="post">
+        {% csrf_token %}
+        {{ form | crispy }}
+
+
+    <button class="btn btn-success" type="submit">Abschicken</button>
+    </form>
+</div>
+</div>
+
+
+{% endblock %}

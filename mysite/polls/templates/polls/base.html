@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+{% load static %}
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Datenschutzerklärung</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="{% static 'polls/assets/img/favicon2.png' %}" rel="icon">
+  <link href="{% static 'polls/assets/img/logo.png' %}" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="{% static 'polls/assets/vendor/aos/aos.css' %}" rel="stylesheet">
+  <link href="{% static 'polls/assets/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+  <link href="{% static 'polls/assets/vendor/bootstrap-icons/bootstrap-icons.css' %}" rel="stylesheet">
+  <link href="{% static 'polls/assets/vendor/boxicons/css/boxicons.min.css' %}" rel="stylesheet">
+  <link href="{% static 'polls/assets/vendor/glightbox/css/glightbox.min.css' %}" rel="stylesheet">
+  <link href="{% static 'polls/assets/vendor/remixicon/remixicon.css' %}" rel="stylesheet">
+  <link href="{% static 'polls/assets/vendor/swiper/swiper-bundle.min.css' %}" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="{% static 'polls/assets/css/style.css' %}" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top ">
+    <div class="container d-flex align-items-center">
+
+      <h1 class="logo me-auto"><a href="">IF Taxi und Kurierdienst</a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo me-auto"><img src="polls/assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a  href="{% url 'polls:index' %}">Home</a></li>
+          <li><a  href="{% url 'polls:index' %}">Über uns</a></li>
+          <li><a href="{% url 'polls:index' %}">Unsere Dienstleistungen</a></li>
+
+
+
+          <li><a href="{% url 'polls:index' %}">Kontakt</a></li>
+          <li><a class="getstarted scrollto"  href="callto:0541 1856 8702">Anrufen</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center">
+
+
+
+
+  </section><!-- End Hero -->
+
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>IF Taxi und Kurierdienst</h3>
+            <p>
+              Auf der Hegge 25 <br>
+              49090 Osnabrück<br>
+              Deutschland <br><br>
+              <strong>Phone: </strong><a href="callto:0541 1856 8702">0541 1856 8702</a><br>
+              <strong>Email: </strong><a href="mailto:kontakt@if-taxi.de">kontakt@if-taxi.de</a><br>
+            </p>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Nützliches</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="{% url 'polls:index' %}">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="{% url 'polls:index' %}">Kontakt</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="{% url 'polls:index' %}">Über Uns</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="{% url 'polls:index' %}">Dienstleistungen</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="{% url 'polls:index' %}">Allgemeine Geschäftsbedingungen</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Datenschutzerklärung</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Unsere Dienstleistungen</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="{% url 'polls:index' %}">Flughafentransfer</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="{% url 'polls:index' %}">Krankenfahrten</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="{% url 'polls:index' %}">Kurierfahrten</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="{% url 'polls:index' %}">Rechnungsfahrten</a></li>
+
+            </ul>
+          </div>
+
+
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container footer-bottom clearfix">
+      <div class="copyright">
+        &copy; Copyright <strong><span>IF Taxi und Kurierdienst</span></strong>. Alle Rechte vorbehalten
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/ -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="https://wa.me/4917683339707" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-whatsapp"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="{% static 'polls/assets/vendor/aos/aos.js' %}"></script>
+  <script src="{% static 'polls/assets/vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+  <script src="{% static 'polls/assets/vendor/glightbox/js/glightbox.min.js' %}"></script>
+  <script src="{% static 'polls/assets/vendor/isotope-layout/isotope.pkgd.min.js' %}"></script>
+  <script src="{% static 'polls/assets/vendor/swiper/swiper-bundle.min.js' %}"></script>
+  <script src="{% static 'polls/assets/vendor/waypoints/noframework.waypoints.js' %}"></script>
+  <script src="{% static 'polls/assets/vendor/php-email-form/validate.js' %}"></script>
+
+  <!-- Template Main JS File -->
+  <script src="{% static 'polls/assets/js/main.js' %}"></script>
+
+</body>
+
+
+</html>

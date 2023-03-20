@@ -1,0 +1,507 @@
+
+<!DOCTYPE html>
+<html ⚡>
+<html lang="en">
+
+
+{% load static %}
+
+<head>
+  <meta charset="utf-8">
+  <link rel="canonical" href="self.html">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+  <script async src="https://cdn.ampproject.org/v0.js"></script>
+  <script src="{% static 'polls/assets/js/anfrage.js' %}"></script>
+
+
+  <!-- COOKIE CONSENT LINK START-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.8.0/dist/cookieconsent.css" />
+
+
+  <link rel="stylesheet" href="{% static 'cookie_consent/cookieconsent.css' %}" media="print" onload="this.media='all'">
+  <!-- COOKIE CONSENT LINK END-->
+
+
+  <title>IF Taxiunternehmen</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="{% static 'polls/assets/img/favicon2.png' %}" rel="icon">
+  <link href="{% static 'polls/assets/img/logo.png' %}" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="{% static 'polls/assets/vendor/aos/aos.css' %}" rel="stylesheet">
+  <link href="{% static 'polls/assets/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+  <link href="{% static 'polls/assets/vendor/bootstrap-icons/bootstrap-icons.css' %}" rel="stylesheet">
+  <link href="{% static 'polls/assets/vendor/boxicons/css/boxicons.min.css' %}" rel="stylesheet">
+  <link href="{% static 'polls/assets/vendor/glightbox/css/glightbox.min.css' %}" rel="stylesheet">
+  <link href="{% static 'polls/assets/vendor/remixicon/remixicon.css' %}" rel="stylesheet">
+  <link href="{% static 'polls/assets/vendor/swiper/swiper-bundle.min.css' %}" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="{% static 'polls/assets/css/style.css' %}" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.8.0/dist/cookieconsent.js" defer></script>
+
+    <script defer src="{% static 'cookie_consent/cookieconsent-init.js' %}"></script>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top ">
+    <div class="container d-flex align-items-center">
+
+      <h1 class="logo me-auto"><a href="">IF Taxi und Kurierdienst</a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo me-auto"><img src="polls/assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">Über uns</a></li>
+          <li><a class="nav-link scrollto" href="#services">Unsere Dienstleistungen</a></li>
+
+
+
+
+          <li><a class="nav-link scrollto" href="#contact">Kontakt</a></li>
+          <li><a class="getstarted scrollto"  href="callto:0541 1856 8702">Anrufen</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
+          <h1>Bequem und Sicher ans Ziel</h1>
+          <h2>Flexibel und Sicher unterwegs</h2>
+          <div class="d-flex justify-content-center justify-content-lg-start">
+            <a href="#contact" class="btn-get-started scrollto">Online Bestellen</a>
+
+          </div>
+        </div>
+        <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
+          <img src="{% static 'polls/assets/img/my-hero-img.png' %}" class="img-fluid animated" alt="if taxi und kurierdienst">
+        </div>
+      </div>
+    </div>
+
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= Clients Section ======= -->
+    <section id="clients" class="clients section-bg">
+      <div class="container">
+
+        <div class="row" data-aos="zoom-in">
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="{% static 'polls/assets/img/clients/client-1.png' %}" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="{% static 'polls/assets/img/clients/client-2.png' %}" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="{% static 'polls/assets/img/clients/client-3.png' %}" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="{% static 'polls/assets/img/clients/client-4.png' %}" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="{% static 'polls/assets/img/clients/client-5.png' %}" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="{% static 'polls/assets/img/clients/client-6.png' %}" class="img-fluid" alt="">
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Cliens Section -->
+
+    <!-- ======= About Us Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Über Uns</h2>
+        </div>
+
+        <div class="row content">
+          <div class="col-lg-6">
+            <p>
+              Wir sind Ihr zuverlässiger Partner für alle Ihre Transportbedürfnisse. Egal, ob Sie eine Fahrt zum Flughafen benötigen, einen wichtigen Termin einhalten müssen oder einfach nur eine Stadtrundfahrt machen möchten, wir sind immer für Sie da.
+
+Unsere erfahrenen Fahrer kennen die Stadt wie ihre Westentasche und sorgen dafür, dass Sie sicher und bequem an Ihr Ziel gelangen.
+
+
+            </p>
+            <ul>
+              <li><i class="ri-check-double-line"></i> Flughafentransfer</li>
+              <li><i class="ri-check-double-line"></i> Kurierfahrten</li>
+              <li><i class="ri-check-double-line"></i> Dialyse- und Therapiefahrten</li>
+              <li><i class="ri-check-double-line"></i> Stadtrundfahrten</li>
+            </ul>
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0">
+            <p>
+              Bei uns steht Kundenzufriedenheit an erster Stelle. Wir garantieren Ihnen einen erstklassigen Service und faire Preise. Unser Ziel ist es, dass Sie sich bei uns wohl und sicher fühlen. Überzeugen Sie sich selbst von unserem erstklassigen Service und buchen Sie noch heute Ihre nächste Fahrt mit uns.
+
+Wir freuen uns darauf, Sie bald an Bord begrüßen zu dürfen!
+            </p>
+
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Us Section -->
+
+    <!-- ======= Why Us Section ======= -->
+    <section id="why-us" class="why-us section-bg">
+      <div class="container-fluid" data-aos="fade-up">
+
+        <div class="row">
+
+          <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch  order-2 order-lg-1">
+
+            <div class="content">
+              <h3>Ein Taxi-Unternehmen,  <strong>das sich kümmert</strong></h3>
+              <p>
+                Als professionelles Taxi-Unternehmen bieten wir Ihnen nicht nur einen schnellen und zuverlässigen Transport, sondern auch einen exzellenten Kundenservice. Unser freundliches Personal steht Ihnen jederzeit zur Verfügung, um alle Fragen zu beantworten und Ihnen bei der Planung Ihrer Fahrt zu helfen.
+              </p>
+            </div>
+
+            <div class="accordion-list">
+              <ul>
+                <li>
+                  <a data-bs-toggle="collapse" class="collapse" data-bs-target="#accordion-list-1"><span>01</span> Was macht uns so großartig? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                  <div id="accordion-list-1" class="collapse show" data-bs-parent=".accordion-list">
+                    <p>
+                      Unser Team ist flexibel und arbeitet mit den individuellen Terminen und Anforderungen unserer Kunden, um sicherzustellen, dass sie pünktlich und stressfrei zu ihren Terminen gelangen.
+                    </p>
+                  </div>
+                </li>
+
+                <li>
+                  <a data-bs-toggle="collapse" data-bs-target="#accordion-list-2" class="collapsed"><span>02</span> Welche Vorteile hat die Nutzung eines Taxis gegenüber anderen Transportmöglichkeiten? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                  <div id="accordion-list-2" class="collapse" data-bs-parent=".accordion-list">
+                    <p>
+                      Taxiunternehmen haben gegenüber anderen Transportdiensten mehrere Vorteile. Erstens bieten Taxis mehr Flexibilität und Komfort für die Kunden als andere Transportdienste, da sie jederzeit angefordert werden können und schnell ankommen. Darüber hinaus sind Taxidienste oft günstiger als andere Transportmöglichkeiten wie Mietwagen oder Busse. Schließlich bieten Taxis ein sicheres und zuverlässiges Transportmittel für Reisende, die mit der Gegend nicht vertraut sind.
+                    </p>
+                  </div>
+                </li>
+
+                <li>
+                  <a data-bs-toggle="collapse" data-bs-target="#accordion-list-3" class="collapsed"><span>03</span> Wie können Kunden ihre Fahrt bezahlen? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                  <div id="accordion-list-3" class="collapse" data-bs-parent=".accordion-list">
+                    <p>
+                      Wir akzeptieren alle gängigen Kredit- und Debitkarten sowie Barzahlungen. Wir sind immer auf der Suche nach Möglichkeiten, den Bezahlvorgang für unsere Kunden einfacher und bequemer zu gestalten.
+                    </p>
+                  </div>
+                </li>
+
+              </ul>
+            </div>
+
+          </div>
+
+          <div class="col-lg-5 align-items-stretch order-1 order-lg-2 img" style='background-image: url("https://img.freepik.com/vektoren-kostenlos/mann-der-taxifahrerkabine-auf-tablet-karte-verfolgt-kerl-der-das-geraet-fuer-die-autoortung-mit-der-gps-system-app-verwendet-maennliche-ueberpruefung-der-navigation-auf-dem-smartphone-buchungstaxi-kartographie-anzeige-flache-abbildung_74855-20647.jpg?t=st=1678627560~exp=1678628160~hmac=cb4874834880f84ba911baad2220200be30428781607dca0a1e5bef8ceabfb7f:/cr=t:0%25,l:20.59%25,w:58.83%25,h:100%25/rs=w:600,h:600,cg:true");' data-aos="zoom-in" data-aos-delay="150">&nbsp;</div>
+        </div>
+
+      </div>
+    </section><!-- End Why Us Section -->
+
+
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>DIENSTLEISTUNGEN</h2>
+          <p>Unsere erfahrenen und freundlichen Fahrer bringen Sie stets pünktlich und sicher an Ihr Ziel. Dabei legen wir großen Wert auf Komfort und Service, um Ihnen eine angenehme Fahrt zu ermöglichen.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-xl-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box">
+              <div class="icon"><i class="bi bi-airplane"></i></div>
+              <h4><a href="">Flughafentransfer</a></h4>
+              <p>Unser Flughafentransfer-Service ist rund um die Uhr verfügbar, so dass Sie keine Sorgen haben müssen, wenn Sie einen frühen oder späten Flug haben. Wir arbeiten hart daran, Ihre Reise so angenehm wie möglich zu gestalten und sind stets bemüht, Ihre Erwartungen zu übertreffen.</p>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon-box">
+              <div class="icon"><i class="bi bi-hospital"></i></div>
+              <h4><a href="">Krankenfahrten</a></h4>
+              <p>Unser Taxi-Service bietet auch Kranken- und Dialysefahrten an. Wir verstehen, wie wichtig es ist, pünktlich und sicher zu medizinischen Terminen zu gelangen, und wir stellen sicher, dass wir unseren Kunden ein zuverlässiges und komfortables Transportmittel anbieten.</p>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon-box">
+              <div class="icon"><i class="bi bi-file-text"></i></div>
+              <h4><a href="">Rechnungsfahrten</a></h4>
+              <p>Wenn Sie nach einem zuverlässigen und effizienten Taxi-Service für Ihre Rechnungsfahrten suchen, kontaktieren Sie uns noch heute, um mehr darüber zu erfahren, wie wir Ihnen helfen können.</p>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="400">
+            <div class="icon-box">
+              <div class="icon"><i class="bi bi-truck"></i></div>
+              <h4><a href="">Kurierfahrten</a></h4>
+              <p>Sie müssen etwas ganz schnell ans Ziel bringen, postdienste kommen gar nicht in frage? Wir sind für Sie da.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Cta Section ======= -->
+    <section id="cta" class="cta">
+      <div class="container" data-aos="zoom-in">
+
+        <div class="row">
+          <div class="col-lg-9 text-center text-lg-start">
+            <h3>Bestellen Sie ganz bequem über WhatsApp ihre Taxi</h3>
+            <p> Sie können ganz bequem über WhatsApp ihre taxi bestellen. Dazu klicken Sie auf dem unten vorhandenen Whatsapp Chat taste.</p>
+          </div>
+          <div class="col-lg-3 cta-btn-container text-center">
+            <a class="cta-btn align-middle" href="https://wa.me/4917683339707">WhatsApp Chat</a>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Cta Section -->
+
+
+
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Kontakt</h2>
+          <p>Wir sind ihr zuverlässiger partner in und um Osnabrück</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-5 d-flex align-items-stretch">
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-geo-alt"></i>
+                <h4>Adresse:</h4>
+                <p>Auf der Hegge 25, 49090 Osnabrück</p>
+              </div>
+
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>Email: </h4>
+                <p><a href="mailto:kontakt@if-taxi.de">kontakt@if-taxi.de</a></p>
+              </div>
+
+              <div class="phone">
+                <i class="bi bi-phone"></i>
+                <h4>Anruf: </h4>
+                <p><a href="callto:0541 1856 8702">0541 1856 8702</a></p>
+              </div>
+
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2438.667912220541!2d7.989518915920376!3d52.322028258634006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b9e77ff124d779%3A0x1f19b17bed842eb6!2sModern%20App%20Development!5e0!3m2!1sde!2sde!4v1658542062204!5m2!1sde!2sde" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
+            </div>
+
+          </div>
+
+
+
+
+          <!--START CONTACT FORM-->
+
+
+             <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+            <form action="{% url 'contact:contact' %}" method="post" role="form" class="php-email-form">
+              {% csrf_token %}
+               <div class="form-group">
+                <label for="name">Betreff</label>
+                <input type="text" class="form-control" name="betreff" id="betreff" placeholder="Frage / Bestellung / Sonstiges etc." required>
+
+              </div>
+
+
+
+              <div class="row">
+                <div class="form-group col-md-6">
+                  <label for="name">Name</label>
+                  <input type="text" placeholder="Max Mustermann" name="name" class="form-control" id="name" required>
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="name">Handy</label>
+                  <input type="tel" placeholder="017612345678" class="form-control" name="handy" id="handy" required>
+                </div>
+              </div>
+
+
+              <div class="row">
+                <div class="form-group col-md-6">
+                  <label for="name">Von</label>
+                  <input type="text" placeholder="Wittekindplatz 4, 49074 Osnabrück" name="von" class="form-control" id="von" required>
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="name">Nach</label>
+                  <input type="text" placeholder="Flughafen Düsseldorf" class="form-control" name="nach" id="nach" required>
+                </div>
+              </div>
+
+
+
+
+              <div class="form-group">
+                <label for="name">Abholzeitpunkt</label>
+                <input type="datetime-local" class="form-control" name="abholung" id="abholung" required>
+              </div>
+
+              <div class="form-group">
+                <label for="name">Anmerkung</label>
+                <textarea class="form-control" placeholder=" z. B. viel Gepäck / vier Kinder" name="anmerkung" rows="3" ></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message"> Vielen Dank! Ihr Anfrage wurde erfolgreich übermittelt.</div>
+              </div>
+              <div class="text-center"><button type="submit" onclick="anfrageSchicken();">Anfrage Schicken</button></div>
+            </form>
+          </div>
+
+
+
+
+
+
+
+
+          <!-- END CONTACTFORM-->
+
+
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>IF Taxi und Kurierdienst</h3>
+            <p>
+              Auf der Hegge 25 <br>
+              49090 Osnabrück<br>
+              Deutschland <br><br>
+              <strong>Phone: </strong><a href="callto:0541 1856 8702">0541 1856 8702</a><br>
+              <strong>Email: </strong><a href="mailto:kontakt@if-taxi.de">kontakt@if-taxi.de</a><br>
+            </p>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Nützliches</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#contact">Kontakt</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#about">Über Uns</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Dienstleistungen</a></li>
+
+              <li><i class="bx bx-chevron-right"></i> <a href="{% url 'polls:datenschutz' %}">Datenschutzerklärung</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Unsere Dienstleistungen</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#contact">Flughafentransfer</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#contact">Krankenfahrten</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#contact">Kurierfahrten</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#contact">Rechnungsfahrten</a></li>
+
+            </ul>
+          </div>
+
+
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container footer-bottom clearfix">
+      <div class="copyright">
+        &copy; Copyright <strong><span>IF Taxi und Kurierdienst</span></strong>. Alle Rechte vorbehalten
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/ -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="https://wa.me/4917683339707" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-whatsapp"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="{% static 'polls/assets/vendor/aos/aos.js' %}"></script>
+  <script src="{% static 'polls/assets/vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+  <script src="{% static 'polls/assets/vendor/glightbox/js/glightbox.min.js' %}"></script>
+  <script src="{% static 'polls/assets/vendor/isotope-layout/isotope.pkgd.min.js' %}"></script>
+  <script src="{% static 'polls/assets/vendor/swiper/swiper-bundle.min.js' %}"></script>
+  <script src="{% static 'polls/assets/vendor/waypoints/noframework.waypoints.js' %}"></script>
+  <script src="{% static 'polls/assets/vendor/php-email-form/validate.js' %}"></script>
+
+
+
+
+
+  <!-- Template Main JS File -->
+  <script src="{% static 'polls/assets/js/main.js' %}"></script>
+
+
+
+
+
+</body>
+
+</html>
