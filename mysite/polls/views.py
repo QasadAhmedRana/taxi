@@ -111,3 +111,5 @@ class InnerPageView(TemplateView):
 def datenschutz(request):
     return render(request, 'polls/datenschutz.html')
 
+def impressum(request):
+    return render(request, 'polls/impressum.html')

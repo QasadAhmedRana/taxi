@@ -14,6 +14,7 @@ urlpatterns = [
     path('inner-page/', views.InnerPageView.as_view(), name="inner-page"),
     #path('datenschutz/', DatenschutzView.as_view(), name='datenschutz'),
     path('datenschutz/', views.datenschutz, name='datenschutz'),
+    path('impressum/', views.impressum, name='impressum')
 
 
 ]
